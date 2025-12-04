@@ -14,9 +14,8 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 export default function App() {
   return (
     <NavigationContainer>
-      {/* Aquí se cumple el punto: 
-        "Implementa la navegación utilizando React Navigation (Stack)" 
-      */}
+      {
+      }
       <Stack.Navigator initialRouteName="Inicio">
         <Stack.Screen 
           name="Inicio" 
