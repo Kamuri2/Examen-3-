@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
-import { Character } from '../types'; // Asegúrate de importar la interfaz
+import { Character } from '../types'; 
 
 interface CharacterCardProps {
   item: Character;
