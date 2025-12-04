@@ -10,7 +10,7 @@ import { Character, RootStackParamList } from '../types';
 
 type HomeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Inicio'>;
 
-// Imagen que usaremos como portada cuando se elija una canción
+// Imagen 
 const MUSIC_COVER_URL = 'https://cdn-icons-png.flaticon.com/512/461/461238.png';
 
 const HomeScreen = () => {
@@ -20,7 +20,7 @@ const HomeScreen = () => {
   const [data, setData] = useState<Character[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
-  // Estados para el AUDIO (Música de fondo)
+  // Estadaos para la musica
   const [sound, setSound] = useState<Audio.Sound | null>(null);
   const [songName, setSongName] = useState<string | null>(null);
   const [hasMusic, setHasMusic] = useState<boolean>(false);
